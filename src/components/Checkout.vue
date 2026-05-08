@@ -314,7 +314,7 @@ function validateForm(): boolean {
 function simulatePayment(): Promise<void> {
   return new Promise((resolve, reject) => {
     const delay = 2000 + Math.random() * 1000 // 2-3 seconds
-    const shouldFail = Math.random() < 0.5 // 50% chance of failure
+    const shouldFail = Math.random() < 0.4 // 40% chance of failure
 
     setTimeout(() => {
       if (shouldFail) {

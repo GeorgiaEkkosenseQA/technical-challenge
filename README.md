@@ -111,7 +111,7 @@ describe('Feature Name', () => {
 - Verify you're using the correct data-testid
 
 ### Payment always fails in tests
-- The payment has a 50% random failure rate. This is intentional for testing error handling.
+- The payment has a 40% random failure rate. This is intentional for testing error handling.
 
 ### Tests timing out
 - Cypress auto-waits for elements (default 4s timeout), this could be a problem, how could your test work around this?
